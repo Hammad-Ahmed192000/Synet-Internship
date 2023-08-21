@@ -82,7 +82,6 @@
     height: 24px;
     flex-shrink: 0;
     background: url(/images/ENG.png), lightgray;
-    ;
 }
 
 .header .AfterNav {
@@ -124,9 +123,27 @@
     margin-top: 90px;
 }
 
-.HeaderForm {
+.RequestButton {
+    width: 309px;
+    height: 64px;
+    /* padding-left: 44.50px;
+    padding-right: 44.50px;
+    padding-top: 14px;
+    padding-bottom: 14px; */
+    margin-top: 0px;
+    margin-left: 313px;
+    margin-bottom: 300px;
+    border-radius: 32px;
+    /* overflow: hidden; */
+    border: 0.50px #FAFAFA solid;
+    /* justify-content: center;
+    align-items: center; */
+    /* display: inline-flex; */
+}
+
+.FormDiv {
     /* Style inputs */
-    display: inline-block;
+    /* display: inline-block; */
     justify-content: right;
     input[type=text],
     select {
@@ -153,4 +170,135 @@
     input[type=submit]:hover {
         background-color: #45a049;
     }
+}
+
+.AfterHeader {
+    color: var(--secondary, #FFA506);
+    margin: 50px 500px 50px 313px;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+}
+
+.AfterHeader hr {
+    height: 20px;
+    width: 100%;
+    border: 0px solid white;
+}
+
+.AfterHeader .Inner {
+    width: 585px;
+    color: #0F3A6B;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* word-wrap: break-word */
+}
+
+.Paragraph {
+    margin: 0px 500px 50px 313px;
+    text-align: left;
+    color: #1D1D1D;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+}
+
+.YellowSquare {
+    margin: 0px 10px 0px 313px;
+    width: 254px;
+    height: 146px;
+    flex-shrink: 0;
+    background-color: #FFA506;
+}
+
+.InnerText {
+    color: var(--white, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    /* 141.667% */
+}
+
+.InnerTextSpan {
+    color: var(--green, #1B2D51);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.MailLogo {
+    display: inline-flex;
+    height: 60px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #EEE;
+    margin-top: 0px;
+    margin-left: 630px;
+}
+
+.MailLogoText {
+    color: #0F3A6B;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.MailLogoText .YellowText {
+    color: #FFA506;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.OverAllCircle {
+    margin-top: 200px;
+    margin-left: 220px;
+}
+
+.HalfCircle {
+    width: 319px;
+    height: 618px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top: 40px #0F3A6B solid;
+    border-right: 40px #0F3A6B solid;
+    border-bottom: 40px #0F3A6B solid;
+    margin-left: 300px;
+}
+
+.InnerLargeText {
+    margin-left: 100px;
+    width: 333px;
+    color: #0F3A6B;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
