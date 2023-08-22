@@ -1,0 +1,66 @@
+.container {
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    /*////////////////////////////flex-direction Properties //////////////////////////*/
+    /* ByDefault 
+    /* flex-direction: row;     
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    /*//////////////////////// Flex Properties for flex Container ////////////////////////*
+    /* ////////////////////// justify-content////////////////////// */
+    /* ByDefault */
+    /* justify-content: left; */
+    /* justify-content: center;
+    justify-content: right;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between; */
+    /* ////////////////////// flex-wrap ////////////////////// */
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap; 
+    flex-wrap: wrap-reverse; */
+    /* ////////////////////// align-items ////////////////////// */
+    /* align-items: center;
+    align-items: end;     */
+    /* ////////////////////// align-content ////////////////////// */
+    /* flex-direction: column; */
+    /* align-content: start;
+    align-content: end; */
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: red;
+    align-self: center;
+}
+
+.box2 {
+    background-color: yellow;
+    align-self: flex-end;
+}
+
+.box3 {
+    background-color: green;
+    align-self: center;
+}
+
+.box4 {
+    background-color: blue;
+    align-self: end;
+}
+
+.box5 {
+    background-color: aqua;
+}
