@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.div1 {
+    background-color: aqua;
+    position: static;
+    /* z-index: 3;   */
+    /* this property is not working for static position */
+    /* top: 50px;
+    right: 50px;
+    left: 50px;
+    /* bottom: 50px; */
+    /* these all properties are not working for static position  and byDefault position os an element is static*/
+}
+
+.div2 {
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    z-index: -20;
+}
+
+.div3 {
+    background-color: red;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    z-index: -2;
+}
+
+.div4 {
+    background-color: brown;
+    position: fixed;
+    /* top: 50px; */
+    /* right: 50px; */
+}
