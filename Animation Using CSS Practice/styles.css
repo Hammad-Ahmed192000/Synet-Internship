@@ -1,0 +1,32 @@
+.circle {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.roundedCircle {
+    /* height: 200px;
+    width: 200px;
+    border-radius: 75%;
+    /* border: 20px solid blue; 
+    border-right: 20px solid black;
+    */
+    /* Create the circle */
+    width: 250px;
+    height: 250px;
+    border: 20px solid blue;
+    border-radius: 50%;
+    /* Halve the circle */
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    /* Rotate the circle */
+    transform: rotate(45deg);
+    color: black;
+    text-indent: 40px;
+    font-size: large;
+    text-align: center;
+}
