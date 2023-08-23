@@ -69,6 +69,7 @@
     height: 40px;
     border-radius: 4px;
     background-color: white;
+    border: none;
 }
 
 #navbar-select {
@@ -125,6 +126,10 @@
 
 /* accounts and List Select  */
 
+.select-signIn {
+    width: 131.53;
+}
+
 .first-Text {
     color: white;
     font-size: 0.8rem;
@@ -140,11 +145,18 @@
     font-weight: bold;
 }
 
+.select-signIn2 {
+    width: 76.95;
+}
+
+
+/* Cart Box */
+
 .shopping-cart {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 84px;
     height: 50px;
 }
 
@@ -157,4 +169,182 @@
     border: none;
     font-size: 1rem;
     font-weight: bold;
+}
+
+
+/* Second Navbar */
+
+.navbar-sec {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.all-menu {
+    color: white;
+    width: 58px;
+    /* height: 39px; */
+}
+
+.panel-ops p {
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 30px;
+    /* justify-content: space-evenly; */
+}
+
+.panel-ops {
+    width: 90%;
+}
+
+
+/* Third Navbar box */
+
+.navbar-third {
+    width: 100%;
+    height: 33px;
+    /* background-color: grey; */
+    background-color: #FAFAFA;
+    /* justify-content: center; */
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-third p {
+    display: inline;
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+
+.navbar-third p:hover {
+    color: #febd68;
+}
+
+.navbar-third p select {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-third p select:hover {
+    color: #febd68;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.forward-arrow {
+    font-weight: lighter;
+    font-size: 80px;
+    position: relative;
+    left: 95%;
+    top: 100px;
+}
+
+.forward-arrow a {
+    text-decoration: none;
+    color: black;
+}
+
+.backward-arrow {
+    font-weight: lighter;
+    font-size: 80px;
+    position: relative;
+    left: 10px;
+}
+
+.backward-arrow a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Shopping Section */
+
+.shopping-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+
+/* box1 */
+
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: #FAFAFA;
+    border: 1px solid black;
+    margin-top: 5px;
+    border: none;
+}
+
+.inner-pic1 {
+    background-image: url(images/box0_image.jpg);
+    width: 90%;
+    height: 350px;
+    background-size: cover;
+    /* margin-left: 15px; */
+}
+
+.box1-content {
+    margin-left: 1.5rem;
+}
+
+
+/* box2 */
+
+.inner-pic2 {
+    background-image: url(images/box2_image.jpg);
+    width: 90%;
+    height: 350px;
+    background-size: cover;
+    /* margin-left: 15px; */
+}
+
+.box2-content {
+    margin-left: 1.5rem;
+}
+
+
+/* box3 */
+
+.inner-pic3 {
+    background-image: url(images/box3_image.jpg);
+    width: 90%;
+    height: 350px;
+    background-size: cover;
+    /* margin-left: 15px; */
+}
+
+.box3-content {
+    margin-left: 1.5rem;
+}
+
+
+/* box4 */
+
+.inner-pic4 {
+    background-image: url(images/box4_image.jpg);
+    width: 90%;
+    height: 350px;
+    background-size: cover;
+    /* margin-left: 15px; */
+}
+
+.box4-content {
+    margin-left: 1.5rem;
 }
