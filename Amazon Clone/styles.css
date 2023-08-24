@@ -504,3 +504,43 @@ hr {
     margin-left: 20px;
     /* text-align: center; */
 }
+
+
+/* last footer panel */
+
+.footer-last-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+    background-color: #0f1111;
+}
+
+.footer-last-panel-content {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 20px; */
+    height: 19px;
+    width: 100%;
+}
+
+.footer-last-panel-content a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 0.8rem;
+}
+
+.footer-last-line {
+    display: flex;
+    justify-content: center;
+    color: #DDDDDD;
+    font-size: 0.8rem;
+}
+
+.footer-last-panel-content a:hover {
+    text-decoration: underline;
+}
