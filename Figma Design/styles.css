@@ -63,7 +63,8 @@
     font-family: Montserrat;
     margin-left: 8px;
     /* font-weight: 600; */
-    /* word-wrap: break-word */
+    /* word
+    -wrap: break-word */
 }
 
 .navbar-right-div {
@@ -90,4 +91,201 @@
 .after-navbar-hr {
     border: 1px solid white;
     width: 100%;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 20%;
+    width: 731px;
+    height: 420px;
+    color: var(--background, #FAFAFA);
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+}
+
+.star-text {
+    display: flex;
+    /* justify-content: left; */
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.s-text {
+    margin-left: 8px;
+}
+
+.ready {
+    font-size: 40px;
+    font-weight: 600;
+    /* margin-top: 15px; */
+}
+
+.discover {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    margin-top: 5px;
+    /* 110% */
+}
+
+.request-button {
+    margin-top: 40px;
+}
+
+.right-panel {
+    background-color: grey;
+    display: flex;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* width: 684px; */
+    /* width: 30%; */
+    height: 864px;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.20);
+    border-radius: 16px;
+    margin-top: 10%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 572px;
+    height: 807.77;
+}
+
+.form-first-line {
+    /* text-align: center; */
+    color: #FFB126;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+    /* margin-top: 50px; */
+}
+
+.form-second-line {
+    text-align: center;
+    color: #0F3A6B;
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+    /* margin-top: 10px; */
+}
+
+.form-third-line {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* align-content: center; */
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.third-line-content {
+    display: flex;
+    align-items: center;
+}
+
+.third-line-blue-circle {
+    width: 38px;
+    height: 38px;
+    background: #0F3A6B;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.16);
+    border-radius: 9999px;
+}
+
+.third-line-light-circle {
+    width: 38px;
+    height: 38px;
+    background: #E1E1E1;
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.16);
+    border-radius: 9999px;
+}
+
+.third-line-dotted-line {
+    width: 300px;
+    height: 0px;
+    border: 1px #0F3A6B dotted;
+}
+
+.third-line-text {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: baseline; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+
+.text {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 28px;
+    /* word-wrap: break-word; */
+}
+
+.third-line-text .text1 {
+    /* width: 250px; */
+    color: #FFB126;
+}
+
+.third-line-text .text2 {
+    color: #B5B5B5;
+}
+
+input[type=text],
+select {
+    color: #0F3A6B;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    word-wrap: break-word;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* width: 572px; */
+    height: 48px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-div-things {
+    border-radius: 5px;
+    width: 500px;
+    /* background-color: #f2f2f2; */
+    /* padding: 20px; */
 }
