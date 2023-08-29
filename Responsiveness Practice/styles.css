@@ -1,0 +1,32 @@
+.main-div {
+    /* display: flex; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 2em;
+    /* 16px = 1rem = 1em */
+    background-color: rgb(233, 233, 95);
+}
+
+.btns-div {
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+.large-btn {
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.medium-btn {
+    font-size: 2rem;
+    /* here 1rem = 2em = 100%*/
+    border: 1px solid black;
+}
+
+.small-btn {
+    font-size: .5rem;
+    border: 1px solid black;
+}
