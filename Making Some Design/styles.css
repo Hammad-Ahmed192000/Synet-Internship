@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+}
+
+.start-heading {
+    text-align: center;
+    /* font-size: 2em; */
+}
+
+.container {
+    /* display: flex; */
+    margin: 5%;
+}
+
+.cols {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col1 {
+    width: 40%;
+}
+
+.col2 {
+    width: 40%;
+}
+
+.col3 {
+    width: 20%;
+}
+
+.col-bg {
+    background-color: darkgrey;
+    margin: 1em 1em;
+    padding: 1em;
+}
+
+@media (max-width: 680px) {
+    body {
+        background-color: blueviolet;
+    }
+    .cols {
+        flex-direction: column;
+    }
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+    }
+}
