@@ -60,12 +60,12 @@ h2 {
     align-items: center;
     align-content: center;
     background-color: lightgrey;
-    width: 30%;
+    width: 20%;
     /* margin-top: 2rem; */
 }
 
 .right-panel {
-    width: 90%;
+    width: 100%;
     margin: 2rem 1rem;
 }
 
