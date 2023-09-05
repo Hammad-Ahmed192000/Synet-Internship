@@ -108,3 +108,130 @@ console.log(firstBook);
 // make library object to a JSON string
 const str = JSON.stringify(library);
 console.log(str);
+
+
+
+        ///////////////// Function Challenge /////////////////
+
+        // Challenge 1
+function getCelsius(numInFarenhite){
+    return (numInFarenhite - 32) * 5/9;
+}
+
+console.log(getCelsius(32));
+
+// one line arrow function of the above one
+        // Challenge 2
+const getCelcius = (numInFarenhite) => (numInFarenhite - 32) * 5/9;
+
+console.log(`The Required Temperature is ${getCelcius(32)} \xB0C` );
+
+
+        // Challenge 3
+    ////////////////// minMax Challenge ////////////////
+
+// Solution 1
+// Using min and Max methods of Math object to find minimum and maximum and make their functions
+
+function minNum(arr){
+    const min = Math.min(...arr);
+    return min;
+}
+
+function maxNum(arr){
+    const max = Math.max(...arr);
+    return max;
+}
+
+console.log(`The minimum number is ${minNum([1,2,3,4,5])} and the maximum number is ${maxNum([1,2,3,4,5])}`);
+
+
+// Solution 2
+const numbers = [5,4,3,2,1];
+const min = Math.min(...numbers);
+const max = Math.max(...numbers);
+
+console.log(`The minimum number is ${min} and the maximum number is ${max}`);
+
+// Solution 3
+
+const minMax = (arr) => {
+    const min = Math.min(...arr);
+    const max = Math.max(...arr);
+    return {
+        min,
+        max
+    };
+}
+
+console.log(minMax([1,2,31,4,5]));
+
+        // Challenge 4
+
+// create an IIFE to find the area of rectangle give there length and width in arguments of IIFE
+
+(function(length, width){
+    console.log(`The area of rectangle with a length of ${length} and a width of ${width} is ${length * width}`);
+})(10, 20);
+
+
+
+    ///////////// Calculator challenge ///////////////
+
+// create a function called calculator(num1, num2, operator) which takes three arguments (num1, num2, operater) and make it for all the basic arithmetic operations
+// calculator(5,6,'+'); like this all the operations are there
+
+function calculator(num1, num2, operator){
+    // make a switch case for all the operations
+    switch(operator){
+        case '+':
+            console.log(num1 + num2);
+            break;
+        case '-':
+            console.log(num1 - num2);
+            break;
+        case '*':
+            console.log(num1 * num2);
+            break;
+        case '/':
+            console.log(num1 / num2);
+            break;
+        case '%':
+            console.log(num1 % num2);
+            break;
+        // make a default case for invalid operator
+        default:
+            console.log('Invalid operator');            
+    }
+}
+
+calculator(5,6,'+');
+calculator(10,12,'-');
+calculator(20,5,'/');
+calculator(5,2,'*');
+calculator(10,2,'^');
+
+
+////////////////// FizzBuzz Challenge ///////////////////
+
+for(let i = 0; i <= 100; i++)
+{
+    // if i is divisible by 3 print Fizz
+    if(i % 3 == 0){
+        console.log('Fizz');
+    }
+    // if i is divisible by 5 print Buzz    
+    else if(i % 5 == 0){
+        console.log('Buzz');
+    }
+    // if i is divisible by 3 and 5 print FizzBuzz
+    else if(i % 3 == 0 && i % 5 == 0){
+        console.log('FizzBuzz');
+    }
+    // if i is not divisible by 3 or 5 print i
+    else{
+        console.log(i);
+    }
+}
+
+
